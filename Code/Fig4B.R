@@ -1,5 +1,5 @@
-D80WT <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_WT_class.rds")
-D80Can <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_Can_class.rds")
+D80WT <- readRDS("/location_where_you_input_file_is/D80_WT_class.rds")
+D80Can <- readRDS("/location_where_you_input_file_is/D80_Can_class.rds")
 
 WT_subset <- subset(WT, subset = SimplifiedClass %in% c("23", "30", "31", "19"))
 cell_ids_wt <- colnames(WT_subset)
