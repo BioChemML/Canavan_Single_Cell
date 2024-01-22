@@ -2,8 +2,8 @@ library(Seurat)
 library(reshape2)
 library(ggplot2)
 
-WT <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D30_WT_1k.rds")
-Can <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D30_Can_1k.rds")
+WT <- readRDS("location_where_you_input_file_is/D30_WT_1k.rds")
+Can <- readRDS("location_where_you_input_file_is/D30_Can_1k.rds")
 
 WT$orig.ident <- "D30_WT"
 Can$orig.ident <- "D30_Can"
