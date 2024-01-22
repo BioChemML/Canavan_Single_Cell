@@ -4,8 +4,8 @@ library(ggplot2)
 library(patchwork)
 library(igraph)
 
-WT_D80 <- readRDS("/group/aawanggrp/siyulin/Cell_Commute/D80_WT_1k.rds")
-Can_D80 <- readRDS("/group/aawanggrp/siyulin/Cell_Commute/D80_Can_1k.rds")
+WT_D80 <- readRDS("/location_where_you_input_file_is/D80_WT_1k.rds")
+Can_D80 <- readRDS("/location_where_you_input_file_is/D80_Can_1k.rds")
 
 WT_D80_interactions <- WT_D80@net$count["clst5268", ]
 Can_D80_interactions <- Can_D80@net$count["clst5268", ]
