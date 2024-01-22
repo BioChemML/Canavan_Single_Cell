@@ -3,8 +3,8 @@ library(reshape2)
 library(ggplot2)
 
 # load seurat objects for D80 WT and Can. These objects were created and processed in before.
-WT <- readRDS("location_where_you_input_file_is/D80_WT_1k.rds")
-Can <- readRDS("location_where_you_input_file_is/D80_Can_1k.rds")
+WT <- readRDS("/location_where_you_input_file_is/D80_WT_1k.rds")
+Can <- readRDS("/location_where_you_input_file_is/D80_Can_1k.rds")
 
 # define our genes of interest for subsetting. 
 genes <- c("Rap1gds1", "Atp1a2", "Plcb4", "Pdp1", "4930403P22Rik", "A730060N03Rik", 
