@@ -49,7 +49,7 @@ df_melted$Gene <- factor(df_melted$Gene, levels = gene_order)
 mid_point <- max(df_melted$Expression) / 2
 
 # define the path and file name where you want to save the plot.
-output_path <- "/group/aawanggrp/siyulin/Plots/single_cell_heatmap.png"
+output_path <- "location_where_you_output_file_is/single_cell_heatmap.png"
 
 # create the heatmap. The reason I choose these colors is because I used them when plotting the average heatmap. This is purely for consistency.
 p <- ggplot(df_melted, aes(x = Cell, y = Gene)) +
