@@ -1,6 +1,6 @@
-WT_Cellbin_clust <- load("/group/aawanggrp/siyulin/InSitu_Results_RData/D80_WTCellbin_semi_out1.RData")
+WT_Cellbin_clust <- load("/location_where_you_input_file_is/D80_WTCellbin_semi_out1.RData")
 WT_Clust <- semisup
-Can_Cellbin_clust <- load("/group/aawanggrp/siyulin/InSitu_Results_RData/D80_CanCellbin_semi_out1.RData")
+Can_Cellbin_clust <- load("/location_where_you_input_file_is/D80_CanCellbin_semi_out1.RData")
 Can_Clust <- semisup
 
 WT <- readRDS("/group/aawanggrp/siyulin/InSitu_Merging/RDS/D80_Half_WT.rds")
