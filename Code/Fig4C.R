@@ -2,8 +2,8 @@ ptm = Sys.time()
 library(CellChat)
 library(patchwork)
 
-cellchat.WT <- readRDS("/group/aawanggrp/siyulin/Cell_Commute/D80_WT_1k.rds")
-cellchat.Can <- readRDS("//group/aawanggrp/siyulin/Cell_Commute/D80_Can_1k.rds")
+cellchat.WT <- readRDS("/location_where_you_input_file_is/D80_WT_1k.rds")
+cellchat.Can <- readRDS("/location_where_you_input_file_is/D80_Can_1k.rds")
 
 object.list <- list(WT = cellchat.WT, Can = cellchat.Can)
 cellchat <- mergeCellChat(object.list, add.names = names(object.list), cell.prefix = TRUE)
