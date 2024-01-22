@@ -2,8 +2,8 @@ library(Seurat)
 library(dplyr)
 library(ggplot2)
 
-can <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_Can_1k.rds") # or load WT
-wt <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_WT_1k.rds")
+can <- readRDS("/location_where_you_input_file_is/D80_Can_1k.rds") # or load WT
+wt <- readRDS("/location_where_you_input_file_is/D80_WT_1k.rds")
 
 # extract the meta.data. It has the cluster identities stored here.
 met <- can@meta.data
@@ -112,4 +112,4 @@ ggplot(met, aes(x = x, y = y)) +
   
   coord_fixed(ratio = 1)  # ensure a 1:1 aspect ratio. If you don't define it here, the spatial plot might be squeezed.
 
-ggsave("/group/aawanggrp/siyulin/Plots/Spatial_Plots/Can_final.png", width = 15, height = 15, dpi = 900)
+ggsave("/location_where_you_output_file_is/Can_final.png", width = 15, height = 15, dpi = 900)
