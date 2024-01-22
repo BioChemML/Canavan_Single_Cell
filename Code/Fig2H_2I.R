@@ -2,7 +2,7 @@ library(readxl)
 library(ggplot2)
 library(pheatmap)
 
-data <- read_excel("C:/All data/Research/Canavan/StereoMap/Figure2_No_Nucleus.xlsx")
+data <- read_excel("location_where_you_input_file_is/Figure2_No_Nucleus.xlsx")
 
 data_long <- reshape2::melt(data)
 
