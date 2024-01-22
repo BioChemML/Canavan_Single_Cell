@@ -1,7 +1,7 @@
-D80_WT <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_WT_1k.rds")
-D80_Can <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D80_Can_1k.rds")
-D30_WT <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D30_WT_1k.rds")
-D30_Can <- readRDS("/group/aawanggrp/siyulin/RDS_for_Analysis/D30_Can_1k.rds")
+D80_WT <- readRDS("/location_where_you_input_file_is/D80_WT_1k.rds")
+D80_Can <- readRDS("/location_where_you_input_file_is/D80_Can_1k.rds")
+D30_WT <- readRDS("/location_where_you_input_file_is/D30_WT_1k.rds")
+D30_Can <- readRDS("/location_where_you_input_file_is/D30_Can_1k.rds")
 
 met <- D80_WT@meta.data
 
