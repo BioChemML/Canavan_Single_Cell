@@ -3,8 +3,8 @@ WT_Clust <- semisup
 Can_Cellbin_clust <- load("/location_where_you_input_file_is/D80_CanCellbin_semi_out1.RData")
 Can_Clust <- semisup
 
-WT <- readRDS("/group/aawanggrp/siyulin/InSitu_Merging/RDS/D80_Half_WT.rds")
-Can <- readRDS("/group/aawanggrp/siyulin/InSitu_Merging/RDS/D80_Half_Can.rds")
+WT <- readRDS("/location_where_you_input_file_is/D80_Half_WT.rds")
+Can <- readRDS("/location_where_you_input_file_is/D80_Half_Can.rds")
 
 desired_clustersWT <- "clst5283"
 desired_clustersCan <- "clst5283"
