@@ -1,10 +1,10 @@
-WT_Cellbin_clust <- load("/group/aawanggrp/siyulin/InSitu_Merging/InSitu_Results/D30_WT_out_2.RData")
+WT_Cellbin_clust <- load("/location_where_you_input_file_is/D30_WT_out_2.RData")
 WT_Clust <- semisup
-Can_Cellbin_clust <- load("/group/aawanggrp/siyulin/InSitu_Merging/InSitu_Results/D30_Can_out_2.RData")
+Can_Cellbin_clust <- load("/location_where_you_input_file_is/D30_Can_out_2.RData")
 Can_Clust <- semisup
 
-WT <- readRDS("/group/aawanggrp/siyulin/InSitu_Merging/RDS/D30_Half_WT.rds")
-Can <- readRDS("/group/aawanggrp/siyulin/InSitu_Merging/RDS/D30_Half_Can.rds")
+WT <- readRDS("/location_where_you_input_file_is/D30_Half_WT.rds")
+Can <- readRDS("/location_where_you_input_file_is/D30_Half_Can.rds")
 
 desired_clustersWT <- "clst5267"
 desired_clustersCan <- "clst5267"
